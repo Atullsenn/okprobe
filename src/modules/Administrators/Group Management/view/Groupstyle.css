@@ -1,0 +1,199 @@
+.tabBtn {
+  padding: 0;
+  height: 65px;
+  list-style: none;
+  align-items: center;
+  display: flex;
+}
+
+ul.tabBtn li {
+  width: 100%;
+  padding-right: 12px;
+}
+
+ul.tabBtn li:last-child {
+  padding: 0;
+}
+
+.tabBtn li a {
+  padding: 8px 20px;
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  height: 65px;
+  display: block;
+}
+
+.active {
+  border-bottom: 2px solid #007bff;
+  color: #007bff !important;
+}
+
+.GroupPaper.MuiPaper-elevation4 {
+  box-shadow: 0px 2px 4px -1px rgb(239 236 236 / 0%), 0px 4px 5px 0px rgb(0 0 0 / 0%), 0px 1px 10px 0px rgb(0 0 0 / 10%);
+}
+
+/* Department Css */
+.DepartMainDiv {
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+
+.DepartField {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 70%;
+}
+
+.commonTextPadding {
+  font-size: 17px;
+  padding-left: 12px;
+  color: black;
+}
+
+.DepartButtons {
+  height: auto;
+  width: 30%;
+  display: flex;
+  justify-content: end;
+}
+
+.btn {
+  min-width: 100px !important;
+}
+
+.SearchTextField .MuiInputBase-input {
+  min-width: 300px !important;
+  height: 40px;
+}
+
+.FirstDropDown .MuiOutlinedInput-input {
+  padding: 10px 14px;
+}
+
+.SearchTextField .MuiOutlinedInput-inputMarginDense {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.Delete-Btn {
+  background-color: #f44336 !important;
+  color: #fff !important;
+}
+
+.ButtonSimilarWidth{
+  width: 80px;
+}
+
+@media only screen and (max-width:1150px) {
+  .DepartField {
+    height: 40px;
+    width: 70%;
+  }
+
+  .DepartButtons {
+    height: 40px;
+    width: 30%;
+    display: flex;
+    justify-content: end;
+  }
+
+  .btn {
+    min-width: 80px !important;
+  }
+
+  .SearchTextField .MuiInputBase-input {
+    width: 50% !important;
+    min-width: 200px !important;
+  }
+}
+
+@media only screen and (max-width:830px) {
+  .DepartMainDiv {
+    display: inherit;
+    width: 100%;
+  }
+
+  .DepartButtons {
+    margin-top: 11px;
+    width: 100%;
+    justify-content: right;
+    height: 40px;
+  }
+
+  .DepartField {
+    height: 40px;
+    width: 100%;
+  }
+
+  .SearchTextField {
+    width: 100%;
+  }
+
+  .SearchTextField .MuiInputBase-input {
+    width: 100% !important;
+    min-width: 10px !important;
+  }
+
+  .commonTextPadding {
+    padding: 3px;
+    margin-left: 2%;
+    font-size: 15px;
+  }
+
+  .btn {
+    width: 15%;
+  }
+}
+
+@media only screen and (max-width:427px) {
+  .DepartButtons {
+    margin-top: 11px;
+    width: 100%;
+    justify-content: end;
+  }
+
+  .btn {
+    width: 31%;
+  }
+}
+
+/* Add Css */
+.setWidth {
+  height: 100%;
+  max-width: 550px !important;
+  width: 100%;
+}
+
+.AddCustomLabel {
+  font-size: 16px;
+}
+
+/* Tree Css */
+.accordianList {
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+.accordianList .menList {
+  list-style: none;
+  display: block;
+}
+
+.accordianList .menList li a {
+  padding: 5px 20px;
+  border: 1px solid #aaa;
+  display: block;
+  margin: 4px 0;
+  border-radius: 3px;
+}
+
+.hideList {
+  display: none;
+}
+
+s .accordianList .menList li ul {
+  list-style: none;
+}

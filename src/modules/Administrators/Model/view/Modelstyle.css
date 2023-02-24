@@ -1,0 +1,161 @@
+.tableBordered {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.tableBordered tbody tr {
+    width: 50%;
+    white-space: nowrap;
+}
+
+.tableBordered tbody tr td {
+    border: 1px solid #eee;
+    padding: 0.75rem;
+    vertical-align: top;
+}
+
+.printer1Img img {
+    width: 120px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.reducedsize img {
+    width: 66px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.imageFullsize {
+    padding: 0 !important;
+}
+
+.imageFullsize ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 !important;
+    margin: 0;
+}
+
+.imageFullsize li {
+    width: 50%;
+    border-left: 1px solid #ddd9d9;
+    height: 90px;
+    padding: 7px 0 0 12px;
+}
+
+.imageFullsize li:first-child {
+    border-left: none;
+}
+
+td button {
+    height: 38px !important;
+}
+
+/* New Style More Detailed Info */
+.textfieldStyle {
+    min-width: 170px !important;
+    width: 30%;
+}
+
+.textfieldStyle .MuiOutlinedInput-input {
+    padding: 10.5px 12px;
+}
+
+.para {
+    font-size: 16px;
+    color: black;
+    margin: 0px !important;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.other-page-table-main .browserBtn {
+    margin-left: 15px;
+}
+
+.textClass {
+    font-size: 16px;
+    margin: 0px;
+}
+
+.textfieldStyleAnother {
+    width: 60%;
+}
+
+.Heading {
+    font-size: 22px;
+    color: #7a5a5a;
+}
+
+.removeBottom div {
+    margin-bottom: 0px !important;
+}
+
+.Rowfield {
+    width: 70%;
+    min-width: 40px !important;
+}
+
+.Rowfield .MuiOutlinedInput-input {
+    padding: 10.5px 8px;
+}
+
+.Rowfield input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.Rowfield input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.TextRight div input {
+    text-align: right !important;
+}
+
+.iconButtons {
+    margin: 0px 6px !important;
+    padding: 0px !important;
+    min-width: 38px !important;
+}
+
+.disableColor {
+    background-color: #f5f6f8 !important;
+}
+
+.ButtonSimilarWidth {
+    width: 80px !important;
+}
+
+@media only screen and (max-width:570px) {
+    .other-page-table-main .browserBtn {
+        margin-top: 5px;
+        margin-left: 0px;
+        width: 40%;
+        min-width: 80px;
+    }
+
+    .textClass {
+        font-size: 14px;
+    }
+
+    .textfieldStyleAnother {
+        width: 100%;
+        min-width: 170px !important;
+    }
+
+    .para {
+        font-size: 14px;
+    }
+
+    .Heading {
+        font-size: 18px;
+    }
+
+    .Rowfield {
+        min-width: 40px !important;
+        padding-right: 10px;
+    }
+}

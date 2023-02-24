@@ -1,0 +1,29 @@
+.viewBtn {
+    height: 45px;
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: rgb(224, 224, 224) !important;
+    position: relative;
+    bottom: 7px;
+    right: 12px;
+}
+
+.MainDateDiv input.MuiInputBase-input.MuiInput-input.MuiInputBase-inputAdornedEnd {
+    padding: 0px 0px 8px 0px;
+}
+
+.dateDiv {
+    height: 47px;
+    margin-left: 30px;
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+    align-items: center;
+}
+
+.ButtonSimilarWidth {
+    width: 80px;
+}

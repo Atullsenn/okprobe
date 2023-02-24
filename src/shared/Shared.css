@@ -1,0 +1,70 @@
+.Btn-Color {
+    background-color: #007bff !important;
+    color: #fff !important;
+}
+
+.Btn-Color:hover {
+    background-color: #0069d9 !important;
+}
+
+.Text-Color {
+    color: #007bff !important;
+}
+
+.Text-Color:hover {
+    color: #0056b3 !important;
+}
+
+.Icon-Color {
+    color: rgba(0, 0, 0, 0.38) !important;
+}
+
+.Add-Btn {
+    color: #007bff !important;
+}
+
+.Add-Btn:hover {
+    color: #0069d9 !important;
+}
+
+.Logout-Color {
+    color: #007bff !important;
+    background-color: #ffffff !important;
+}
+
+.Logout-Color:hover {
+    color: #0056b3 !important;
+    background-color: #ffffff !important;
+}
+
+.Test-Color {
+    background-color: #153259 !important;
+    color: #fff !important;
+}
+
+.Test-Color:hover {
+    background-color: #001d44 !important;
+}
+
+.setPadding div input {
+    padding: 14px;
+}
+
+.setPagination div.MuiTablePagination-spacer {
+    display: none;
+}
+
+.setPagination .MuiTablePagination-actions {
+    position: absolute;
+    right: 0px;
+}
+
+.leftMenuColor p {
+    color: #68b9c2 !important;
+}
+
+.MuiCollapse-wrapperInner a div span div.d-flex p {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/fav-icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta
+          name="description"
+          content="Web site created using create-react-app"
+  />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
+    manifest.json provides metadata used when your web app is installed on a
+    user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+  -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+    Notice the use of %PUBLIC_URL% in the tags above.
+    It will be replaced with the URL of the `public` folder during the build.
+    Only files inside the `public` folder can be referenced from the HTML.
+
+    Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+    work correctly both with client-side routing and a non-root public URL.
+    Learn how to configure a non-root public URL by running `npm run build`.
+  -->
+  <link rel="stylesheet" href="%PUBLIC_URL%/plugin/fontawesome-free/css/all.min.css">
+  <script src="%PUBLIC_URL%/plugin/chart.js/Chart.min.js"></script>
+  <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+  <script type="text/javascript" src="https://static.nid.naver.com/js/naveridlogin_js_sdk_2.0.0.js" charset="utf-8"></script>
+  <!-- <script type="text/javascript" src="%PUBLIC_URL%/plugin/chart.js/Chart.min.js" charset="utf-8"></script> -->
+  <title>OKProbe</title>
+  <style>
+
+    .color-text-link{
+      text-align: right ;
+    }
+
+    body .mb-8 {
+      margin-bottom: 16px !important;
+    }
+
+
+    .MuiSelect-select:focus {
+    background-color: transparent !important;
+    }
+
+    .animated-progress {
+      width: 98%;
+      height: 33px;
+      /* border-radius: 5px; */
+      margin: 14px 10px;
+      border: 1px solid rgb(52 58 64 / 12%);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .animated-progress span {
+      height: 100%;
+      display: block;
+      width: 0;
+      color: rgb(255, 251, 251);
+      line-height: 30px;
+      position: absolute;
+      text-align: end;
+      padding-right: 5px;
+    }
+
+    .progress-blue span {
+      background-color: #000;
+    }
+    .progress-green span {
+      background-color: #fcd65d;
+      color: #000;
+    }
+    .progress-purple span {
+      background-color: #4280fe;
+    }
+    .progress-red span {
+      background-color: #dd3d47;
+    }
+    .progress-black span {
+      background-color: #000;
+    }
+    .progress-yellow span {
+      background-color: #fcd65d;
+    }
+    .progress-cyan span {
+      background-color: #4280fe;
+    }
+    .progress-magenta span {
+      background-color: #dd3d47;
+    }
+
+    /* checkbox */
+    .MuiTable-stickyHeader thead tr th, .MuiTable-stickyHeader tbody tr td {
+     border-right: 1px solid rgba(0, 0, 0, 0.12);
+    }
+    /* ckeckbox */
+
+    .toggal_name a {
+      background-color: #000;
+      margin: 0px 2px 0px 0px;
+      background-color: #007bff;
+      padding: 5px 14px;
+      color: #fff;
+      font-size: 20px;
+      /* width: 160%; */
+      border-radius: 5px 0px 5px 0px;
+      font-size: 18px;
+    }
+
+    .toggal_name a.active {
+      background-color: #343a40;
+    }
+
+    .toggal_name a:hover{
+      background-color: #343a40;
+    }
+
+    .toggal_name {
+      margin: 19px 0px 0px 0px;
+    }
+
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 90px;
+      height: 34px;
+      left: -350px;
+      top: 10px;
+    }
+
+    .switch input {display:none;}
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #343a40;
+      /* -webkit-transition: .4s;
+      transition: .4s; */
+      border-radius: 34px;
+    }
+
+    /* Scrollbar Css */
+    .MuiDrawer-paper {
+      height: 100vh !important;
+      overflow: auto;
+    }
+
+    .MuiDrawer-paper::-webkit-scrollbar {
+      width: 1px;
+    }
+    /* Scrollbar Css */
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      /* -webkit-transition: .4s;
+      transition: .4s; */
+      border-radius: 50%;
+    }
+
+    input:checked + .slider {
+      background-color: #0062cc;
+    }
+
+    input:focus + .slider {
+      box-shadow: 0 0 1px #2196F3;
+    }
+
+    input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(55px);
+    }
+
+    /*------ ADDED CSS ---------*/
+    .slider:after
+    {
+      content: 'circle';
+      color: white;
+      display: block;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      top: 50%;
+      left: 64%;
+      font-size: 13px;
+      font-family: Verdana, sans-serif;
+      text-transform: capitalize;
+    }
+
+    input:checked + .slider:after
+    {
+      content: 'bar';
+      left: 29px;
+      font-size: 14px;
+    }
+
+    /* Table Min height */
+
+    .MuiTableContainer-root{
+      max-height:444px !important;
+      min-height:0px !important;
+    }
+  </style>
+
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app ...</noscript>
+<div id="root"></div>
+<!--
+  This HTML file is a template.
+  If you open it directly in the browser, you will see an empty page.
+
+  You can add webfonts, meta tags, or analytics to this file.
+  The build step will place the bundled scripts into the <body> tag.
+
+  To begin the development, run `npm start` or `yarn start`.
+  To create a production bundle, use `npm run build` or `yarn build`.
+-->
+<script>
+  // Kakao.init('0cbc59ebea8694425b48d638f78339f3');
+  // var naverLogin = naver && new naver.LoginWithNaverId({
+  //   clientId: '4rDIhmq8vLPg_eEerDMF',
+  //   callbackUrl: 'https://app2.okprobe.com/naver-login',
+  //   isPopup: false, /* 팝업을 통한 연동처리 여부 */
+  //   loginButton: { color: "green", type: 3, height: 48 } /* 로그인 버튼의 타입을 지정 */
+  // });
+</script>
+</body>
+</html>

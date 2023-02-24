@@ -1,0 +1,96 @@
+.PeriodTonerInkInnerDiv {
+    height: 44px;
+    display: flex;
+    width: 100%;
+}
+
+.TonerInkLabelDiv {
+    height: 44px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.TonerInkLabelText {
+    font-size: 18px;
+}
+
+.TonerInkDateDiv {
+    display: flex;
+    height: 44px;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.TonerInkInnerDateDiv {
+    display: flex;
+}
+
+.TonerInkDateDiv span {
+    display: flex;
+    align-items: center;
+}
+
+.TonerINKmain-period-date-div div input {
+    padding: 12.5px 14px;
+}
+
+.ModelTonerInkDiv {
+    display: flex;
+    height: 44px;
+    justify-content: space-between;
+}
+
+.ModelFirstTonerInnerInk {
+    display: flex;
+    width: 40%;
+}
+
+.ModelSecondTonerInnerInk {
+    display: flex;
+    width: 58%;
+}
+
+.ModelTonerInkLabelDiv {
+    height: 44px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.ModelTonerInkLabelText {
+    font-size: 18px;
+}
+
+.ModelTextfieldDiv {
+    width: 70%;
+}
+
+.ModelTextfieldDiv .MuiOutlinedInput-marginDense {
+    height: 44px;
+}
+
+.RemainingTextfieldDiv {
+    width: 20%;
+}
+
+.RemainingTextfieldDiv .MuiOutlinedInput-marginDense {
+    height: 44px;
+}
+
+.under {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.RemainingTonerInkLabelDiv {
+    height: 44px;
+    width: 14%;
+    display: flex;
+    align-items: center;
+}
+
+.TonerInkSearchTextField .MuiInputBase-marginDense {
+    height: 44px;
+}

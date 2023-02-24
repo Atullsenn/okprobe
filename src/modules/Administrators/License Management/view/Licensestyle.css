@@ -1,0 +1,54 @@
+/* Main Css */
+.LicenseBtn {
+  min-width: 25% !important;
+  width: 25%;
+  float: right;
+  padding: 7px 5px !important;
+}
+
+.disableColor {
+  background-color: #f5f6f8;
+}
+
+.ImportButtonSimilarWidth {
+  width: 90px !important;
+}
+
+/* Import Key PopUp Css */
+.setWidth {
+  height: 100%;
+  max-width: 550px !important;
+  width: 100%;
+  margin: 100px;
+}
+
+/* Deletekey Popup Css */
+.DeleteKeyBtn {
+  width: 20% !important;
+  font-size: 16px !important;
+}
+
+.iconDiv {
+  height: 100px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.HeadingDiv {
+  margin-top: 10px;
+  height: 30px;
+  width: 100%;
+}
+
+.paraDiv {
+  margin-top: 10px;
+  height: 50px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.HeadParaCenter {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}

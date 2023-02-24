@@ -1,0 +1,107 @@
+.exportButtonHeight {
+    height: 60px;
+}
+
+.PeriodAllInnerDiv {
+    height: 44px;
+    display: flex;
+    width: 100%;
+}
+
+.AllLabelDiv {
+    width: 5%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+.AllLabelText {
+    font-size: 18px;
+}
+
+.AllModelNameLabelDiv {
+    height: 44px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.AllDateDiv {
+    display: flex;
+    height: 44px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.AllInnerDateDiv {
+    width: 60%;
+    display: flex;
+}
+
+.AllDateDiv span {
+    display: flex;
+    align-items: center;
+}
+
+.Allmain-period-date-div div input {
+    padding: 12.5px 14px;
+}
+
+.ModelAllLabelText {
+    font-size: 18px;
+}
+
+.RemainingAllTextfieldDiv {
+    width: 16%;
+}
+
+.RemainingAllTextfieldDiv .MuiOutlinedInput-marginDense {
+    height: 44px;
+}
+
+.under {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.RemainingAllLabelDiv {
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+.modelNameMainDiv {
+    width: 100%;
+}
+
+.RemainingAllModelNameTextfieldDiv {
+    width: 28%;
+}
+
+.RemainingAllModelNameTextfieldDiv .MuiOutlinedInput-marginDense {
+    height: 44px;
+}
+
+.RemainingAllWasteTonerDiv {
+    width: 59%;
+}
+
+.RemainingAllWasteTonerDiv .tonerTypeDropdown {
+    height: 44px;
+    width: 100%;
+}
+
+.AllWasteLabelDiv {
+    height: 44px;
+    width: 31%;
+    display: flex;
+    align-items: center;
+}
+
+.AllTypeLabelDiv {
+    width: 11%;
+    height: 44px;
+    display: flex;
+    align-items: center
+}

@@ -1,0 +1,141 @@
+/* Loading Css */
+.LoadingDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  width: 100%;
+  height: 100%;
+  z-index: 1212;
+  display: inline-flex;
+}
+
+.LoadingInnerDiv {
+  height: auto;
+  width: 45%;
+  border-radius: 10px;
+  margin: 70px auto;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  width: 40%;
+  position: relative;
+}
+
+/* New Css */
+.agent-label-select-box-area {
+  display: flex;
+  align-items: center;
+}
+
+.agent-label-select-box-area .dropDown {
+  height: 40px;
+  width: 350px;
+}
+
+.agent-label-select-box-area label.agent {
+  width: 20%;
+  font-size: 18px;
+}
+
+.startip-label-input-box-area {
+  display: flex;
+  align-items: center;
+}
+
+.startip-label-input-main-area {
+  margin: 15px 0px 15px 0px;
+}
+
+.startip-label-input-box-area label.startIplabel {
+  width: 20%;
+  font-size: 18px;
+}
+
+.startip-label-input-box-area label.paddingBottom {
+  padding-bottom: 24px;
+}
+
+.startip-label-input-box-area .textField {
+  width: 350px;
+}
+
+.endip-label-input-box-area {
+  display: flex;
+  align-items: center;
+}
+
+.endip-label-input-box-area label.EndIplabel {
+  width: 20%;
+  font-size: 18px;
+}
+
+.endip-label-input-box-area label.paddingBottom {
+  padding-bottom: 24px;
+}
+
+.endip-label-input-box-area .textField {
+  width: 350px;
+}
+
+.agent-start-end-smbtbtn-area {
+  display: flex;
+  align-items: center;
+}
+
+.agent-start-end-smbtbtn-area .EndIplabel {
+  width: 20%;
+  font-size: 18px;
+}
+
+.smbt-btn-area {
+  padding-left: 250px;
+  text-align: right;
+  margin: 15px 0px 0px 0px;
+}
+
+.divBtn {
+  display: flex;
+  justify-content: right;
+}
+
+.searchBtn {
+  width: 100px;
+}
+
+.set-default-date div input {
+  padding: 12.5px 14px;
+}
+
+.period-default-date div input {
+  padding: 11px 14px;
+  padding-right: 130px;
+}
+
+.ButtonSimilarWidth {
+  width: 80px !important;
+  color: #fff !important;
+}
+
+.disableColor {
+  background-color: #f5f6f8;
+}
+
+.moreOptions.MuiPaper-elevation1 {
+  box-shadow: none !important;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border: 1px solid #cdcdcd;
+}
+
+.moreInnerDiv {
+  border-top: 1px solid #cdcdcd;
+  padding-top: 5px;
+}
